@@ -117,7 +117,7 @@
                     <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
                         <h2>Calendar</h2>
                         <p><a href="https://calendar.google.com/calendar/ical/041lo9o5q4g25l0qbaoovs47l4%40group.calendar.google.com/public/basic.ics">Keep up to date and download our calendar</a></p>
-                        <iframe src="https://calendar.google.com/calendar/embed?src=041lo9o5q4g25l0qbaoovs47l4%40group.calendar.google.com&ctz=Europe%2FLondon" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                        <iframe id="cal-iframe" src="https://calendar.google.com/calendar/embed?src=041lo9o5q4g25l0qbaoovs47l4%40group.calendar.google.com&ctz=Europe%2FLondon" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
                     </div>
                 </div>
                 <div class="row animate-box">
@@ -232,6 +232,13 @@
     <!-- Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123554812-1"></script>
     <script src="js/analytics.js"></script>
+
+    <script type="text/javascript">
+        var mobile = (/iphone|ipod|android|blackberry|mini|windows\sce|palm/i.test(naviagtor.userAgent.toLowerCase()));
+        if (mobile) {
+            $("#cal-iframe").hide();
+        }
+    </script>
 
 </body>
 </html>
