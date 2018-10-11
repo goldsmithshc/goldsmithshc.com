@@ -138,12 +138,10 @@
                 <div class="row animate-box">
                     <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
                         <div class="passwordCheck">
-                            <form name="login">
                                 <form method="post" action="">
                                     <h3>Password</h3><input type="password" name="pswrd" /><br>
                                     <input type="submit" value="Login" name="loginbutton"/>
                                 </form>
-                            </form>
                         </div>
                     </div>
                 </div>
