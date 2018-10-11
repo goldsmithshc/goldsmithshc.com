@@ -105,6 +105,33 @@
             </div>
         </header>
 
+        <?php
+            
+            if (isset($_POST['loginbutton'])) {
+
+                echo "test";
+            }
+
+            $passFromUser = $_POST['pswrd'];
+            
+            echo $passFromUser;
+            
+            $hashedPass = password_hash($passFromUser, PASSWORD_DEFAULT);
+            
+            echo $hashedPass;
+            
+            $password = 'test';
+            
+            $isCorrect = password_verify($password, $hashedPass);
+            
+            if ($isCorrect) {
+                echo "password is correct" ;
+                header('Location:loggedin.php');
+            } else {
+                echo "wrong password";
+            }
+            
+        ?>    
 
         <div id="fh5co-trainer">
             <div class="container">
@@ -114,7 +141,7 @@
                             <form name="login">
                                 <form method="post" action="">
                                     <h3>Password</h3><input type="password" name="pswrd" /><br>
-                                    <input type="submit" value="Login" />
+                                    <input type="submit" value="Login" name="loginbutton"/>
                                 </form>
                             </form>
                         </div>
@@ -224,27 +251,5 @@
     
 </body>
 
-<?php
-    
-    $passFromUser = $_POST['pswrd'];
-    
-    echo $passFromUser;
-    
-    $hashedPass = password_hash($passFromUser, PASSWORD_DEFAULT);
-    
-    echo $hashedPass;
-    
-    $password = 'test';
-    
-    $isCorrect = password_verify($password, $hashedPass);
-    
-    if ($isCorrect) {
-        echo "password is correct" ;
-        header('Location:loggedin.php');
-    } else {
-        echo "wrong password";
-    }
-    
-?>    
     
 </html>
