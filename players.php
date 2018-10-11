@@ -23,6 +23,7 @@
         border-radius: 4px;
         border: 2px solid #9D46C5;
         margin-bottom: 25px;
+        text-align: center; 
     }
     .jt-btn {
         height: 54px;
