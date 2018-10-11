@@ -109,27 +109,27 @@
             
             if (isset($_POST['loginbutton'])) {
 
-                echo "test";
+                $passFromUser = $_POST['pswrd'];
+            
+                echo $passFromUser;
+                
+                $hashedPass = password_hash($passFromUser, PASSWORD_DEFAULT);
+                
+                echo $hashedPass;
+                
+                $password = 'test';
+                
+                $isCorrect = password_verify($password, $hashedPass);
+                
+                if ($isCorrect) {
+                    echo "password is correct" ;
+                    header('Location:loggedin.php');
+                } else {
+                    echo "wrong password";
+                }
             }
 
-            $passFromUser = $_POST['pswrd'];
             
-            echo $passFromUser;
-            
-            $hashedPass = password_hash($passFromUser, PASSWORD_DEFAULT);
-            
-            echo $hashedPass;
-            
-            $password = 'test';
-            
-            $isCorrect = password_verify($password, $hashedPass);
-            
-            if ($isCorrect) {
-                echo "password is correct" ;
-                header('Location:loggedin.php');
-            } else {
-                echo "wrong password";
-            }
             
         ?>    
 
