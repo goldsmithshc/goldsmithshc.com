@@ -1,7 +1,7 @@
 <?php     
     if (isset($_POST['loginbutton'])) {
         $passFromUser = $_POST['pswrd'];
-        if ($passFromUser == 'test') {
+        if ($passFromUser == '?KJjI4') {
             $user_id = 1;
             session_start();
             $_SESSION['user'] = $user_id;
@@ -200,6 +200,7 @@
                                 <li><a href="committee.html">Committee</a></li>
                                 <li><a href="fixtures_results.html">Fixtures &amp; Results</a></li>
                                 <li><a href="newplayers.html">New Players</a></li>
+                                <li><a href="players.php">Current Players</a></li>
                             </ul>
                         </div>
 

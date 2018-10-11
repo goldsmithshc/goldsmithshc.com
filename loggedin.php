@@ -118,15 +118,15 @@
             <div class="container">
                 <div class="row animate-box">
                     <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                        <h2>CLUB CONSTITUTION</h2>
+                        <h2>PRINCIPLES OF PLAY</h2>
                         <p><a href="https://drive.google.com/file/d/1FT4hJ0eRpnjtrqS9key4QijN2Ke7IljU/view?usp=sharing">View</a></p>
                         <br>
-                        <!-- <h2>CODE OF CONDUCT</h2>
+                        <h2>SHORT CORNERS</h2>
                         <p><a href="https://drive.google.com/file/d/1FKGI_i-spoVB8L3Ygt364uajz3AUvdvn/view?usp=sharing">View</a></p>
                         <br>
-                        <h2>HEALTH AND SAFETY</h2>
+                        <h2>INSURANCE</h2>
                         <p><a href="https://drive.google.com/file/d/1w4OUy7961pepDGV6jMy_mDu1qoRb4aer/view?usp=sharing">View</a></p>
-                        <br>
+                        <!-- <br>
                         <h2>DATA PROTECTION</h2>
                         <p><a href="https://docs.google.com/document/d/1U38o1-6b_JCAlSMQMZc6RyYOmnfMOrzJ44Alnf6coOw/edit#">View</a></p>
                         <br>
