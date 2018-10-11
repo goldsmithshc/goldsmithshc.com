@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Goldsmiths HC &mdash; Players Login</title>
+    <title>Goldsmiths HC &mdash; Policies</title>
     <link rel="icon" href="images/icons/logo.png" type="logo/png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The official website for Goldsmiths, University of London Hockey Club" />
@@ -110,14 +110,21 @@
             <div class="container">
                 <div class="row animate-box">
                     <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                        <div class="passwordCheck">
-                            <form name="login">
-                                <form method="post" action="">
-                                    <h3>Password</h3><input type="password" name="pswrd" /><br>
-                                    <input type="submit" value="Login" />
-                                </form>
-                            </form>
-                        </div>
+                        <h2>CLUB CONSTITUTION</h2>
+                        <p><a href="https://drive.google.com/file/d/1FT4hJ0eRpnjtrqS9key4QijN2Ke7IljU/view?usp=sharing">View</a></p>
+                        <br>
+                        <!-- <h2>CODE OF CONDUCT</h2>
+                        <p><a href="https://drive.google.com/file/d/1FKGI_i-spoVB8L3Ygt364uajz3AUvdvn/view?usp=sharing">View</a></p>
+                        <br>
+                        <h2>HEALTH AND SAFETY</h2>
+                        <p><a href="https://drive.google.com/file/d/1w4OUy7961pepDGV6jMy_mDu1qoRb4aer/view?usp=sharing">View</a></p>
+                        <br>
+                        <h2>DATA PROTECTION</h2>
+                        <p><a href="https://docs.google.com/document/d/1U38o1-6b_JCAlSMQMZc6RyYOmnfMOrzJ44Alnf6coOw/edit#">View</a></p>
+                        <br>
+                        <h2>SPORTS HANDBOOK</h2>
+                        <p><a href="https://goldsu.gitbooks.io/sports/content/">View</a></p> -->
+
                     </div>
                 </div>
             </div>
@@ -223,28 +230,5 @@
     <script src="js/analytics.js"></script>
     
 </body>
-
-<?php
-    
-    $passFromUser = $_POST['pswrd'];
-    
-    echo $passFromUser;
-    
-    $hashedPass = password_hash($passFromUser, PASSWORD_DEFAULT);
-    
-    echo $hashedPass;
-    
-    $password = 'test';
-    
-    $isCorrect = password_verify($password, $hashedPass);
-    
-    if ($isCorrect) {
-        echo "password is correct" ;
-        header('Location:loggedin.php');
-    } else {
-        echo "wrong password";
-    }
-    
-?>    
 
 </html>
