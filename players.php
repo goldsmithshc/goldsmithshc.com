@@ -1,31 +1,41 @@
-<?php
-    
+<?php     
     if (isset($_POST['loginbutton'])) {
-
         $passFromUser = $_POST['pswrd'];
-    
-        echo $passFromUser;
-        
-        $hashedPass = password_hash($passFromUser, PASSWORD_DEFAULT);
-        
-        echo $hashedPass;
-        
-        $password = 'test';
-        
-        $isCorrect = password_verify($password, $hashedPass);
-        
-        if ($isCorrect) {
-            echo "password is correct" ;
-            header('Location:loggedin.php');
+        if ($passFromUser == 'test') {
+            $user_id = 1;
+            session_start();
+            $_SESSION['user'] = $user_id;
+            header('Location: loggedin.php');
         } else {
             echo "wrong password";
         }
     }
-
-?>    
+?>
 <!DOCTYPE HTML>
 
 <html>
+
+<style>
+    .jt-input {
+        padding: 14px 16px;
+        width: 100%;
+        outline: none;
+        border-radius: 4px;
+        border: 2px solid #9D46C5;
+        margin-bottom: 25px;
+    }
+    .jt-btn {
+        height: 54px;
+        border: none !important;
+        background: #9D46C5;
+        color: #fff;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 400;
+        padding-left: 50px;
+        padding-right: 50px;
+}
+</style>
 
 <head>
     <meta charset="utf-8">
@@ -136,10 +146,10 @@
                 <div class="row animate-box">
                     <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
                         <div class="passwordCheck">
-                                <form method="post" action="">
-                                    <h3>Password</h3><input type="password" name="pswrd" /><br>
-                                    <input type="submit" value="Login" name="loginbutton"/>
-                                </form>
+                            <form method="post" action="">
+                                <h3>Password</h3><input type="password" name="pswrd" class="jt-input" /><br>
+                                <input type="submit" value="Login" name="loginbutton" class="jt-btn" />
+                            </form>
                         </div>
                     </div>
                 </div>
