@@ -1,4 +1,30 @@
+<?php
+    
+    if (isset($_POST['loginbutton'])) {
+
+        $passFromUser = $_POST['pswrd'];
+    
+        echo $passFromUser;
+        
+        $hashedPass = password_hash($passFromUser, PASSWORD_DEFAULT);
+        
+        echo $hashedPass;
+        
+        $password = 'test';
+        
+        $isCorrect = password_verify($password, $hashedPass);
+        
+        if ($isCorrect) {
+            echo "password is correct" ;
+            header('Location:loggedin.php');
+        } else {
+            echo "wrong password";
+        }
+    }
+
+?>    
 <!DOCTYPE HTML>
+
 <html>
 
 <head>
@@ -104,34 +130,6 @@
                 </div>
             </div>
         </header>
-
-        <?php
-            
-            if (isset($_POST['loginbutton'])) {
-
-                $passFromUser = $_POST['pswrd'];
-            
-                echo $passFromUser;
-                
-                $hashedPass = password_hash($passFromUser, PASSWORD_DEFAULT);
-                
-                echo $hashedPass;
-                
-                $password = 'test';
-                
-                $isCorrect = password_verify($password, $hashedPass);
-                
-                if ($isCorrect) {
-                    echo "password is correct" ;
-                    header('Location:loggedin.php');
-                } else {
-                    echo "wrong password";
-                }
-            }
-
-            
-            
-        ?>    
 
         <div id="fh5co-trainer">
             <div class="container">
