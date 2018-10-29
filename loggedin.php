@@ -12,7 +12,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Goldsmiths HC &mdash; Policies</title>
+    rtitle>Goldsmiths HC &mdash; Logged in</title>
     <link rel="icon" href="images/icons/logo.png" type="logo/png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The official website for Goldsmiths, University of London Hockey Club" />
