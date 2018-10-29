@@ -7,7 +7,8 @@
             $_SESSION['user'] = $user_id;
             header('Location: loggedin.php');
         } else {
-            echo "wrong password";
+            $message = "Incorrect password \\n Try again.";
+            echo "<script type='text/javascript'>alert('$message');</script>";
         }
     }
 ?>
