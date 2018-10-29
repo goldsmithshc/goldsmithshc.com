@@ -82,6 +82,7 @@
                                         <li><a href="committee.html">Committee</a></li>
                                         <li><a href="comingsoon.html">Sponsorship</a></li>
                                         <!-- <li><a href="sponsors.html">Sponsorship</a></li> -->
+                                        <li><a href="currentplayers.php">Current Players</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="fixtures_results.html">Fixtures &amp; Results</a></li>
