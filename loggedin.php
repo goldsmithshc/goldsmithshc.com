@@ -131,7 +131,7 @@
                         <h2>Ice Skating</h2>
                         <p><a href="https://monzo.me/jonathantang/15.00?d=Goldsmiths%20HC%20Ice%20Skating">Payment Link</a></p>
                         <h3>Paid List</h3>
-                        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQhVg5vnLHS02U0DK_t0dwlXNcGcXaHTQl-sSqL-cP9nZlHKeCT9G5HqAcIKTOTL5v4MF634cwU08H_/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+                        <iframe id="idIframe" onload="iframeLoaded()" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQhVg5vnLHS02U0DK_t0dwlXNcGcXaHTQl-sSqL-cP9nZlHKeCT9G5HqAcIKTOTL5v4MF634cwU08H_/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
                         <!-- <br>
                         <h2>DATA PROTECTION</h2>
                         <p><a href="https://docs.google.com/document/d/1U38o1-6b_JCAlSMQMZc6RyYOmnfMOrzJ44Alnf6coOw/edit#">View</a></p>
@@ -243,7 +243,16 @@
     <!-- Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123554812-1"></script>
     <script src="js/analytics.js"></script>
-    
+    <script type="text/javascript">
+        function iframeLoaded() {
+            var iFrameID = document.getElementById('idIframe');
+            if(iFrameID) {
+                // here you can make the height, I delete it first, then I make it again
+                iFrameID.height = "";
+                iFrameID.height = iFrameID.contentWindow.document.body.scrollHeight + "px";
+            }   
+        }
+    </script>    
 </body>
 
 </html>
