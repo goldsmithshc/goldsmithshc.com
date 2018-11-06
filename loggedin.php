@@ -127,6 +127,9 @@
                         <br>
                         <h2>INSURANCE</h2>
                         <p><a href="https://drive.google.com/file/d/1w4OUy7961pepDGV6jMy_mDu1qoRb4aer/view?usp=sharing">View</a></p>
+                        <br> 
+                        <h2>Fines</h2>
+                        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRfffEwHzNMnY1Y_3mSHVJWS3EwsJU7voY78M9F6W-r-jGIjuEj_e5cj2Cij7C_-m-iBKLoxor3DgNY/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
                         <br>
                         <h2>Ice Skating</h2>
                         <p><a href="https://monzo.me/jonathantang/15.00?d=Goldsmiths%20HC%20Ice%20Skating">Payment Link</a></p>
