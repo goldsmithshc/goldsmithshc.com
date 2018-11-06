@@ -1,6 +1,6 @@
 <?php     
     if (isset($_POST['loginbutton'])) {
-        $passFromUser = $_POST['pswrd'];
+        $passFromUser = $_POST['JTisalegend'];
         if ($passFromUser == '?KJjI4') {
             $user_id = 1;
             session_start();
