@@ -7,11 +7,10 @@
             $_SESSION['user'] = $user_id;
             header('Location: loggedin.php');
         } else {
-            # $message = "Incorrect password \\n Try again.";
-            # echo "<script type='text/javascript'>alert('$message');</script>";
-            # #header("Refresh:0");
-            echo "Wrong password";
-            echo "<meta http-equiv='refresh' content='0'>";
+            $message = "Incorrect password \\n Try again.";
+            echo "<script type='text/javascript'>alert('$message');</script>";
+            #header("Refresh:0");
+            header('Location: players.php');
         }
     }
 ?>
