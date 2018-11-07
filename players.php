@@ -1,7 +1,7 @@
 <?php     
     if (isset($_POST['loginbutton'])) {
         $passFromUser = $_POST['pswrd'];
-        if ($passFromUser == 'JTisalegend') {
+        if ($passFromUser == 'goJT!') {
             $user_id = 1;
             session_start();
             $_SESSION['user'] = $user_id;
