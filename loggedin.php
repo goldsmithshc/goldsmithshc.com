@@ -144,7 +144,6 @@
                         <br>
                         <h2>SPORTS HANDBOOK</h2>
                         <p><a href="https://goldsu.gitbooks.io/sports/content/">View</a></p> -->
-
                     </div>
                 </div>
             </div>
