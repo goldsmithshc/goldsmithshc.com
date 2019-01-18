@@ -133,11 +133,13 @@
                         <h2>Fines</h2>
                         <p><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRfffEwHzNMnY1Y_3mSHVJWS3EwsJU7voY78M9F6W-r-jGIjuEj_e5cj2Cij7C_-m-iBKLoxor3DgNY/pubhtml?gid=0&single=true" target="_blank">View</a></p>
                         <br>
-                        <h2>Ice Skating</h2>
-                        <p><a href="https://monzo.me/jonathantang/15.00?d=Goldsmiths%20HC%20Ice%20Skating">Payment Link</a></p>
+                        <h2>Attendance</h2>
+                        <p><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTkSjjeU6WIf3j6AJPXmGEu2f6_ki2mB9wX0uJ01-JLbZ43KqfVXK4JBKCLAEsf_J2bpsBWaVlfR0Y5/pubhtml?gid=1333567370&single=true" target="_blank">View</a></p>
+                        <!-- <h2>Ice Skating</h2>
+                        <p><a href="https://monzo.me/jonathantang/15.00?d=Goldsmiths%20HC%20Ice%20Skating">Payment Link</a></p> -->
                         <br>
-                        <h3>Paid List</h3>
-                        <iframe id="idIframe" onload="iframeLoaded()" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQhVg5vnLHS02U0DK_t0dwlXNcGcXaHTQl-sSqL-cP9nZlHKeCT9G5HqAcIKTOTL5v4MF634cwU08H_/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+                        <!-- <h3>Paid List</h3>
+                        <iframe id="idIframe" onload="iframeLoaded()" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQhVg5vnLHS02U0DK_t0dwlXNcGcXaHTQl-sSqL-cP9nZlHKeCT9G5HqAcIKTOTL5v4MF634cwU08H_/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe> -->
                         <!-- <br>
                         <h2>DATA PROTECTION</h2>
                         <p><a href="https://docs.google.com/document/d/1U38o1-6b_JCAlSMQMZc6RyYOmnfMOrzJ44Alnf6coOw/edit#">View</a></p>
