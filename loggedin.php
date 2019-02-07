@@ -139,7 +139,7 @@
                         <p><a href="https://monzo.me/jonathantang/15.00?d=Goldsmiths%20HC%20Ice%20Skating">Payment Link</a></p> -->
                         <br>
                         <h2>Tour Information</h2>
-                        <p>To be released on Monday 21st January</p>
+                        <p><a href="https://drive.google.com/open?id=1FKaqnSiREjE4aDzv94HV_M8sDIg9msVM" target="_blank">View</a></p>
 
                         <!-- <h3>Paid List</h3>
                         <iframe id="idIframe" onload="iframeLoaded()" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQhVg5vnLHS02U0DK_t0dwlXNcGcXaHTQl-sSqL-cP9nZlHKeCT9G5HqAcIKTOTL5v4MF634cwU08H_/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe> -->
