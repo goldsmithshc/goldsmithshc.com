@@ -80,8 +80,7 @@
                                     <ul class="dropdown">
                                         <li><a href="about.html">The Club</a></li>
                                         <li><a href="committee.html">Committee</a></li>
-                                        <li><a href="comingsoon.html">Sponsorship</a></li>
-                                        <!-- <li><a href="sponsors.html">Sponsorship</a></li> -->
+                                        <li><a href="sponsors.html">Sponsorship</a></li>
                                         <li><a href="players.php">Current Players</a></li>
                                     </ul>
                                 </li>
