@@ -119,14 +119,14 @@
             <div class="container">
                 <div class="row animate-box">
                     <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                        <h2>PRINCIPLES OF PLAY</h2>
-                        <p>Coming Soon</p>
+                        <!-- <h2>PRINCIPLES OF PLAY</h2>
+                        <p>Coming Soon</p> -->
                         <!-- <p><a href="https://drive.google.com/file/d/1FT4hJ0eRpnjtrqS9key4QijN2Ke7IljU/view?usp=sharing">View</a></p> -->
-                        <br>
+<!--                         <br>
                         <h2>SHORT CORNERS</h2>
-                        <p>Coming Soon</p>
+                        <p>Coming Soon</p> -->
                         <!-- <p><a href="https://drive.google.com/file/d/1FKGI_i-spoVB8L3Ygt364uajz3AUvdvn/view?usp=sharing">View</a></p> -->
-                        <br>
+                        <!-- <br> -->
                         <h2>INSURANCE</h2>
                         <p><a href="https://drive.google.com/file/d/1w4OUy7961pepDGV6jMy_mDu1qoRb4aer/view?usp=sharing">View</a></p>
                         <br> 
@@ -139,8 +139,8 @@
                         <p><a href="https://monzo.me/jonathantang/15.00?d=Goldsmiths%20HC%20Ice%20Skating">Payment Link</a></p> -->
                         <br>
                         <h2>Tour Information</h2>
-                        <p><a href="https://drive.google.com/open?id=1FKaqnSiREjE4aDzv94HV_M8sDIg9msVM" target="_blank">View</a></p>
-
+                        <p><a href="https://docs.google.com/document/d/1qKRcQvK0OlO3-lHF4RUSbEmVW3oNCX65IccFXsdmZhc/edit?usp=sharing" target="_blank">View</a></p>
+                        <br>
                         <!-- <h3>Paid List</h3>
                         <iframe id="idIframe" onload="iframeLoaded()" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQhVg5vnLHS02U0DK_t0dwlXNcGcXaHTQl-sSqL-cP9nZlHKeCT9G5HqAcIKTOTL5v4MF634cwU08H_/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe> -->
                         <!-- <br>
