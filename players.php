@@ -88,7 +88,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12 text-right">
-                            <p class="num">Email: jtang002@gold.ac.uk</p>
+                            <p class="num">Email: goldsmithshc@gmail.com</p>
                             <ul class="fh5co-social">
                                 <li><a href="https://www.facebook.com/GoldsmithsHC"><i class="icon-facebook"></i></a></li>
                                 <li><a href="https://twitter.com/GoldsmithsHC"><i class="icon-twitter"></i></a></li>
