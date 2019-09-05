@@ -61,6 +61,7 @@
                                 <li><a href="https://www.facebook.com/GoldsmithsHC"><i class="icon-facebook"></i></a></li>
                                 <li><a href="https://twitter.com/GoldsmithsHC"><i class="icon-twitter"></i></a></li>
                                 <li><a href="https://www.instagram.com/goldsmithshc/"><i class="icon-instagram"></i></a></li>
+                                <li><a href="https://linkedin.com/company/goldsmithshc"><i class="icon-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -217,6 +218,7 @@
                                 <li><a href="https://www.facebook.com/GoldsmithsHC"><i class="icon-facebook"></i></a></li>
                                 <li><a href="https://twitter.com/GoldsmithsHC"><i class="icon-twitter"></i></a></li>
                                 <li><a href="https://www.instagram.com/goldsmithshc/"><i class="icon-instagram"></i></a></li>
+                                <li><a href="https://linkedin.com/company/goldsmithshc"><i class="icon-linkedin"></i></a></li>
                             </ul>
                         </p>
                     </div>
