@@ -131,6 +131,15 @@
                         <h2>PLAYER'S HANDBOOK</h2>
                         <p><a href="https://docs.goldsmithshc.com">View</a></p>
                         <br> 
+                        <h2>TERM CARD</h2>
+                        <p><a href="https://goldsmithshc.com/termcard">View</a></p>
+                        <br>
+                        <h2>TOUR INFORMATION</h2>
+                        <p><a href="https://docs.goldsmithshc.com/players-handbook/socials/tour">View</a></p>
+                        <br>
+                        <h2>PHOTOS</h2>
+                        <p><a href="https://drive.google.com/drive/folders/1FRbzkctD3JnK0wGfL1AfkXWlGY0TcST4?usp=sharing">View</a></p>
+                        <br>
                         <h2>INSURANCE</h2>
                         <p><a href="https://drive.google.com/file/d/1w4OUy7961pepDGV6jMy_mDu1qoRb4aer/view?usp=sharing">View</a></p>
                         <br> 
