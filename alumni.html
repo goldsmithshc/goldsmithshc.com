@@ -1,9 +1,10 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Goldsmiths HC &mdash; Fixtures &amp; Results</title>
+    <title>Goldsmiths HC &mdash; New Players</title>
     <link rel="icon" href="images/icons/logo.png" type="logo/png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The official website for Goldsmiths, University of London Hockey Club" />
@@ -74,10 +75,10 @@
                                         <li><a href="committee.html">Committee</a></li>
                                         <li><a href="sponsors.html">Sponsorship</a></li>
                                         <li><a href="players.php">Current Players</a></li>
-                                        <li><a href="alumni.html">Alumni</a></li>
+                                        <li class="active"><a href="alumni.html">Alumni</a></li>
                                     </ul>
                                 </li>
-                                <li class="active"><a href="fixtures_results.html">Fixtures &amp; Results</a></li>
+                                <li><a href="fixtures_results.html">Fixtures &amp; Results</a></li>
                                 <li><a href="newplayers.html">New Players</a></li>
                                 <li><a href="news.html">News</a></li>
                                 <li><a href="https://www.grayshockeyshop.co.uk/goldsmithshc/">Shop</a></li>
@@ -90,16 +91,15 @@
             </div>
         </nav>
 
-        <header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/jack.jpg);" data-stellar-background-ratio="0.5">
+        <header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/preseason.png);" data-stellar-background-ratio="0.5">
             <div class="overlay"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 text-center">
                         <div class="display-t">
                             <div class="display-tc animate-box" data-animate-effect="fadeIn">
-                                <h1>Fixtures &amp; Results</h1>
-                                <h2>Team of the Year 2017/18 & 2018/19</a>
-                                </h2>
+                                <h1>Alumni</h1>
+                                <h2>Team of the Year 2017/18 & 2018/19</h2>
                             </div>
                         </div>
                     </div>
@@ -112,23 +112,11 @@
             <div class="container">
                 <div class="row animate-box">
                     <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                        <h2>Fixtures & Results</h2>
-                        <!-- replace fixtures and results link -->
-                        <p class="desktop-fixtures"><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vThP6NGVjrUpKZLWPHDzW5FCPLaUKkzE5UodRK2aI7bZGNiDBTuStR4iub8MsiIoSGkyrsJa5jh6DmJ/pubhtml?gid=1968740195&single=true">View All Fixtures & Results</a></p>
-                        <p class="mobile-fixtures"><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vThP6NGVjrUpKZLWPHDzW5FCPLaUKkzE5UodRK2aI7bZGNiDBTuStR4iub8MsiIoSGkyrsJa5jh6DmJ/pub?gid=1968740195&single=true&output=pdf">View All Fixtures & Results</a></p>
-                    </div>
-                </div>
-                <div class="row animate-box">
-                    <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                        <h2>Calendar</h2>
-                        <p><a href="https://calendar.google.com/calendar/ical/041lo9o5q4g25l0qbaoovs47l4%40group.calendar.google.com/public/basic.ics">Keep up to date and download our calendar</a></p>
-                        <iframe id="cal-iframe" src="https://calendar.google.com/calendar/embed?src=041lo9o5q4g25l0qbaoovs47l4%40group.calendar.google.com&ctz=Europe%2FLondon" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-                    </div>
-                </div>
-                <div class="row animate-box">
-                    <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                        <h2>LUSL Mixed League Table</h2>
-                        <iframe src='https://bucs.playwaze.com/lusl-hockey-2019-20/rmgseefs7bv/league-embeddeddisplay/uewlq4ib2yise' style='' width='100%' height='800' title='LUSL Hockey 2019-20' frameborder='0'><p> Your browser does not support iframes. </p></iframe>
+                        <h2>KEEP IN CONTACT WITH US</h2>
+                        <p>We are currently trying to rebuild our alumni group, and connect with former students who played for Goldsmiths HC. If you would like to reconnect with us, fill in the form below.</p>
+
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdaO8-qoWw7HQRPQGw9L7fz21Vg3IeIz-D9LG2nH9far_EpwA/viewform?embedded=true" width="640" height="1498" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
                     </div>
                 </div>
             </div>
@@ -150,7 +138,6 @@
                 </div>
             </div>
         </div>
-
 
         <footer id="fh5co-footer" class="fh5co-bg" style="background-image: url(images/img_bg_1.jpg);" role="contentinfo">
             <div class="overlay"></div>
@@ -239,17 +226,13 @@
 
    <script type="text/javascript"> 
         var mobile = (/iphone|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));  
-        $(".mobile-fixtures").hide();
-        $(".desktop-fixtures").hide();
         if (mobile) { 
-            $("#cal-iframe").hide();
-            $(".mobile-fixtures").show();
-        }
-        else {
-            $(".desktop-fixtures").show();
+            $("#form").hide();
+        } else {
+            $("#mobile_message").hide();
         }
     </script> 
 
 </body>
-</html>
 
+</html>
